@@ -1,0 +1,121 @@
+div.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #FFFF00;
+}
+
+div.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 24px 26px;
+  transition: 0.3s;
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  font-family: Macho;
+}
+
+div.tab button:hover {
+  background-color: violet;
+}
+
+div.tab button.active {
+  background-color: #00FFFF;
+}
+
+.tabcontent {
+  display: none;
+  padding: 16px 22px;
+  border: 2px solid #ccc;
+  border-top: none;
+}
+
+h1 {
+  font-family: GT Walsheim;
+  font-size: 50px;
+}
+
+div.wholepage {
+  background-image: url("https://www.planwallpaper.com/static/images/cool-background.jpg");
+}
+
+.tabcontent img {
+  width: 50%;
+}
+
+h1, p, h2, ul, a, h3, table {
+  color: orange;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: right;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  float: right;
+  height: inherit;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  float: right;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  float: right;
+}
+
+div.Homepage {
+  text-align: center;
+}
+
+div.para {
+  font-size: 30px;
+}
+
+div.tabcontent {
+  text-align: center;
+}
+
+table {
+  font-size: 29px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 25px;
+}
